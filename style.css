@@ -1,0 +1,171 @@
+html{
+    box-sizing: border-box;
+    font-size: 64.2%;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.7rem;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(27, 23, 23, 0.916);
+}
+
+header{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ border: 3px solid rgb(232, 142, 7);
+ border-radius: 7px;
+ margin-bottom:10px ;
+ padding-left:10px;
+}
+
+h1{
+  color: rgb(7, 227, 124);
+}
+
+.menu-horizontal{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgb(232, 142, 7);
+  border-radius: 7px;
+  margin-bottom:10px ;
+  padding: 10px ;
+}
+.menu-horizontal li{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+a{
+  position: relative;
+  padding: 7px 15px;
+  font-size: 1.6em;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(5, 5, 6);
+}
+a:hover{
+  background-color: rgb(10, 44, 238);
+  transition: 0.4s;
+  color: rgb(146, 10, 10);
+}
+
+main{
+  border: 3px solid rgb(232, 142, 7);
+  border-radius: 7px;
+  margin-bottom:10px ;
+}
+
+.formulario h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  padding: 7px;
+  color: rgb(0, 0, 0);
+  border-radius: 7px;
+  background-color: rgb(126, 92, 50);
+  margin-top: 10px;
+  margin-bottom: 7px;
+  cursor: pointer;
+}
+
+.formulario form{
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: auto;
+}
+.border-grey{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid rgb(133, 132, 132);
+  border-radius: 7px;
+}
+
+.formulario  input{
+  font-size: 1.6rem;
+  margin: 10px;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  width: 30% auto ;
+}
+
+.formulario button {
+  cursor: pointer;
+  padding: 7px 25px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(123, 176, 176);
+  font-weight: bold;
+}
+
+button:hover{
+  background-color: blueviolet;
+  color: white;
+  transition: 0.5s;
+}
+
+.articulos{
+  margin: 15px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.articulos h2 {
+  display: flex;
+  justify-content: start;
+  color: white;
+  font-weight: bold;
+  padding: 7px;
+  width: 50%;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.articulos h3 {
+  font-size: 1.6rem;
+  padding: 7px;
+  color: rgb(209, 172, 21);
+  
+}
+
+.articulos p {
+  font-size: 1.5rem;
+  color: white;
+  padding: 7px;
+ 
+}
+
+article {
+  margin: 7px;
+  padding: 5px;
+  border: 1px solid rgb(129, 126, 126);
+  border-radius: 10px;
+}
+
+img{
+  width: 50px;
+  height: auto;
+  border-radius: 10px;
+}
